@@ -18,7 +18,7 @@ namespace atividade {
         public override void exibirProduto() {
             base.exibirProduto();
             Console.WriteLine($"Tipo: {tipo}\nValor de reajuste: {1.02}");
-            Console.WriteLine("***************************");
+            Console.WriteLine("***************************"); 
         }
     }
 }
